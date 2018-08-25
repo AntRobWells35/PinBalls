@@ -285,6 +285,11 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.32580608
   m_Center: {x: -0.00000023841858, y: 0.00000023841858, z: -0.000000029802322}
+--- !u!4 &437134720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 7a6bef33d50e49f428ed49d838870e90,
+    type: 3}
+  m_PrefabInternal: {fileID: 660476173}
 --- !u!1001 &660476173
 Prefab:
   m_ObjectHideFlags: 0
@@ -594,7 +599,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: babd5178d350f784bb37fba404121381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 437134713}
+  playertransform: {fileID: 437134720}
+  AroundPlayer: 1
+  Rotspeed: 5
+  SmoothFact: 0.5
+  LookAtPlayer: 1
 --- !u!1 &1803970070 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 65a0159a77f7ebc448f38a416829ce9b,
