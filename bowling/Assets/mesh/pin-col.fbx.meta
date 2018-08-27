@@ -1,42 +1,16 @@
 fileFormatVersion: 2
-guid: 18c56bc36e13ad5468809f210ffab20e
+guid: a85f365a7600a424c8d902e726640b37
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Empty_Mesh
-    100004: pin-col
     400000: //RootNode
-    400002: Empty_Mesh
-    400004: pin-col
-    2100000: pin
-    2100002: Default_1
-    2100004: pin_1
+    2100000: Default_1
     2300000: //RootNode
-    2300002: Empty_Mesh
-    2300004: pin-col
     3300000: //RootNode
-    3300002: Empty_Mesh
-    3300004: pin-col
     4300000: Empty_Mesh
-    4300002: pin-col
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Default_1
-    second: {fileID: 2100000, guid: 9bcaf1470e563404391e1c10fee3a10d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pin
-    second: {fileID: 2100000, guid: 9bcaf1470e563404391e1c10fee3a10d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pin_1
-    second: {fileID: 2100000, guid: 9bcaf1470e563404391e1c10fee3a10d, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
